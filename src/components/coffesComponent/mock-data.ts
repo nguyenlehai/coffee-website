@@ -73,7 +73,7 @@ export const MockDataAll: CoffeeItem[] = [
   {
     "id": 7,
     "nameKey": "jasmineTeaBubble",
-    "image": "https://longnhanbamai.com/wp-content/uploads/2015/10/huong-dan-cach-pha-tra-nhai-long-nhan-cuc-ngon.jpg",
+    "image": "https://cdn.tgdd.vn/Files/2018/07/14/1101389/loi-ich-va-cach-pha-tra-hoa-nhai-tra-hoa-lai-chuan-vi-tot-cho-suc-khoe-202302211359255720.jpeg",
     "price": "15K VND",
     "rating": 4.6,
     "votes": 780,
@@ -199,7 +199,7 @@ export const MockDataTea: CoffeeItem[] = [
   {
     "id": 7,
     "nameKey": "jasmineTeaBubble",
-    "image": "https://longnhanbamai.com/wp-content/uploads/2015/10/huong-dan-cach-pha-tra-nhai-long-nhan-cuc-ngon.jpg",
+    "image": "https://cdn.tgdd.vn/Files/2018/07/14/1101389/loi-ich-va-cach-pha-tra-hoa-nhai-tra-hoa-lai-chuan-vi-tot-cho-suc-khoe-202302211359255720.jpeg",
     "price": "15K VND",
     "rating": 4.6,
     "votes": 780,

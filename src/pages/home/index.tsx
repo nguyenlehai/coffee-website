@@ -60,18 +60,14 @@ function Home() {
       <div className="px-10 pt-4 pb-8 items-start text-left">
         <div className='text-[#FEF7EE]'>{t('address')}</div>
         <div className='text-[#FEF7EE]'>{t('contactWithUs')}
-          <div className='pt-2' onClick={handleFacebook}>
+          <div className='pt-2 text-green-500 font-bold text-2xl' onClick={handleFacebook}>
             <span className="inline-flex align-middle">
-              <img src='src/assets/image/facebook.svg' width={50} height={50} alt="Facebook"
-                   className='pr-2'/>
-              Hana - Coffee & Tea Đà Nẵng
+              Facebook: Hana - Coffee & Tea Đà Nẵng
             </span>
           </div>
-          <div className='pt-2' onClick={handleKakaoTalk}>
+          <div className='pt-4 text-yellow-500 font-bold text-2xl' onClick={handleKakaoTalk}>
             <span className="inline-flex align-middle">
-              <img src='src/assets/image/kakaotalk.svg' width={50} height={50} alt="Facebook"
-                   className='pr-2'/>
-              hanacoffe
+              Kakaotalk: hanacoffe
             </span>
           </div>
         </div>
