@@ -70,6 +70,11 @@ function Home() {
               Kakaotalk: hanacoffe
             </span>
           </div>
+          <div className='pt-4 text-red-500 font-bold text-2xl'>
+            <span className="inline-flex align-middle">
+              Zalo: (+84)5599 24296
+            </span>
+          </div>
         </div>
       </div>
     </>

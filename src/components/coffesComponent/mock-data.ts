@@ -250,16 +250,6 @@ export const MockDataJuices: CoffeeItem[] = [
     "available": true
   },
   {
-    "id": 8,
-    "nameKey": "lemonTea",
-    "image": "https://daotaophachelamour.com/wp-content/uploads/2023/03/dung-cu-can-thiet-de-mo-quan-tra-chanh-1.jpg",
-    "price": "15K VND",
-    "rating": 4.7,
-    "votes": 920,
-    "popular": true,
-    "available": true
-  },
-  {
     "id": 12,
     "nameKey": "freshLemonJuice",
     "image": "https://media.vov.vn/sites/default/files/styles/large/public/2023-04/5_27.jpg",
