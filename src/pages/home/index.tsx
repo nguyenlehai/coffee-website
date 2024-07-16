@@ -3,15 +3,6 @@ import {useTranslation} from 'react-i18next';
 
 function Home() {
   const {i18n} = useTranslation();
-  const {t} = useTranslation();
-
-  const handleFacebook = () => {
-    window.open('https://www.facebook.com/HanaCoffeeTea.Danang')
-  }
-
-  const handleKakaoTalk = () => {
-    window.open('https://open.kakao.com/me/hanacoffee');
-  }
 
   const changeLanguage = (lng: string) => {
     i18n.changeLanguage(lng);
@@ -58,24 +49,7 @@ function Home() {
         </div>
       </div>
       <div className="px-10 pt-4 pb-8 items-start text-left">
-        <div className='text-[#FEF7EE]'>{t('address')}</div>
-        <div className='text-[#FEF7EE]'>{t('contactWithUs')}
-          <div className='pt-2 text-green-500 font-bold text-2xl' onClick={handleFacebook}>
-            <span className="inline-flex align-middle">
-              Facebook: Hana - Coffee & Tea Đà Nẵng
-            </span>
-          </div>
-          <div className='pt-4 text-yellow-500 font-bold text-2xl' onClick={handleKakaoTalk}>
-            <span className="inline-flex align-middle">
-              Kakaotalk: hanacoffe
-            </span>
-          </div>
-          <div className='pt-4 text-red-500 font-bold text-2xl'>
-            <span className="inline-flex align-middle">
-              Zalo: (+84)5599 24296
-            </span>
-          </div>
-        </div>
+
       </div>
     </>
   )

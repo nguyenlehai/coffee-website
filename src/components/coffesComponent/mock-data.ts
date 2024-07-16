@@ -13,7 +13,7 @@ export const MockDataAll: CoffeeItem[] = [
   {
     "id": 1,
     "nameKey": "matchaLatte",
-    "image": "https://heddincoffee.com.vn/upload/product/matcha-iced-latteig-1753.jpg",
+    "image": "/images/mattcha.jpg",
     "price": "30K VND",
     "rating": 4.9,
     "votes": 1800,
@@ -23,7 +23,7 @@ export const MockDataAll: CoffeeItem[] = [
   {
     "id": 2,
     "nameKey": "milkCoffee",
-    "image": "https://cdn.tgdd.vn/2020/07/CookProduct/ava-1200x676-7.jpg",
+    "image": "/images/milk-coffee.jpg",
     "price": "25K VND",
     "rating": 5,
     "votes": 2100,
@@ -33,7 +33,7 @@ export const MockDataAll: CoffeeItem[] = [
   {
     "id": 3,
     "nameKey": "coconutCoffee",
-    "image": "https://nvhphunu.vn/wp-content/uploads/2023/10/cach-pha-ca-phe-cot-dua.jpg",
+    "image": "/images/coconut.jpg",
     "price": "25K VND",
     "rating": 4.8,
     "votes": 1650,
@@ -43,7 +43,7 @@ export const MockDataAll: CoffeeItem[] = [
   {
     "id": 4,
     "nameKey": "orangeJuice",
-    "image": "https://hoaquauudam.com/wp-content/uploads/2021/09/chon-cam-vat-1024x576-1.jpg",
+    "image": "/images/orange.jpg",
     "price": "30K VND",
     "rating": 4.8,
     "votes": 720,
@@ -53,7 +53,7 @@ export const MockDataAll: CoffeeItem[] = [
   {
     "id": 5,
     "nameKey": "coldBrew",
-    "image": "https://file.hstatic.net/200000391645/article/cafe-cold-brew-aeroco-coffee_1_b38f8b940c3644d983a3c6314a5c1211.jpg",
+    "image": "/images/cold-rew.jpg",
     "price": "20K VND",
     "rating": 4.9,
     "votes": 950,
@@ -63,7 +63,7 @@ export const MockDataAll: CoffeeItem[] = [
   {
     "id": 6,
     "nameKey": "blackCoffee",
-    "image": "https://cdnphoto.dantri.com.vn/aIOZcmri9CbJvm1HFSpuytscpWQ=/thumb_w/960/2021/03/04/vi-ca-phe-den-het-nhu-vi-cuoc-songdocx-1614866315610.png",
+    "image": "/images/black.webp",
     "price": "20K VND",
     "rating": 4.7,
     "votes": 1200,
@@ -73,7 +73,7 @@ export const MockDataAll: CoffeeItem[] = [
   {
     "id": 7,
     "nameKey": "jasmineTeaBubble",
-    "image": "https://cdn.tgdd.vn/Files/2018/07/14/1101389/loi-ich-va-cach-pha-tra-hoa-nhai-tra-hoa-lai-chuan-vi-tot-cho-suc-khoe-202302211359255720.jpeg",
+    "image": "/images/jasmine.jpeg",
     "price": "15K VND",
     "rating": 4.6,
     "votes": 780,
@@ -83,7 +83,7 @@ export const MockDataAll: CoffeeItem[] = [
   {
     "id": 8,
     "nameKey": "lemonTea",
-    "image": "https://daotaophachelamour.com/wp-content/uploads/2023/03/dung-cu-can-thiet-de-mo-quan-tra-chanh-1.jpg",
+    "image": "/images/tra-chanh.jpg",
     "price": "15K VND",
     "rating": 4.7,
     "votes": 920,
@@ -93,7 +93,7 @@ export const MockDataAll: CoffeeItem[] = [
   {
     "id": 9,
     "nameKey": "artisoTea",
-    "image": "https://toiyeutra.vn/upload/files/atiso%20do.jpg",
+    "image": "/images/atiso.jpg",
     "price": "20K VND",
     "rating": 4.8,
     "votes": 650,
@@ -103,7 +103,7 @@ export const MockDataAll: CoffeeItem[] = [
   {
     "id": 10,
     "nameKey": "hanoiSauJuice",
-    "image": "https://i-giadinh.vnecdn.net/2022/06/18/Thanh-pham-1-1-1891-1655539037.jpg",
+    "image": "/images/nuoc-sau.jpg",
     "price": "20K VND",
     "rating": 4.6,
     "votes": 480,
@@ -113,7 +113,7 @@ export const MockDataAll: CoffeeItem[] = [
   {
     "id": 11,
     "nameKey": "cacao",
-    "image": "https://www.huongnghiepaau.com/wp-content/uploads/2017/09/cacao-da-ngot.jpg",
+    "image": "/images/cacao.webp",
     "price": "25K VND",
     "rating": 4.7,
     "votes": 580,
@@ -123,7 +123,7 @@ export const MockDataAll: CoffeeItem[] = [
   {
     "id": 12,
     "nameKey": "freshLemonJuice",
-    "image": "https://media.vov.vn/sites/default/files/styles/large/public/2023-04/5_27.jpg",
+    "image": "/images/lemon.jpg",
     "price": "20K VND",
     "rating": 4.7,
     "votes": 580,
@@ -136,7 +136,7 @@ export const MockDataCoffee: CoffeeItem[] = [
   {
     "id": 1,
     "nameKey": "matchaLatte",
-    "image": "https://heddincoffee.com.vn/upload/product/matcha-iced-latteig-1753.jpg",
+    "image": "/images/mattcha.jpg",
     "price": "30K VND",
     "rating": 4.9,
     "votes": 1800,
@@ -146,7 +146,7 @@ export const MockDataCoffee: CoffeeItem[] = [
   {
     "id": 2,
     "nameKey": "milkCoffee",
-    "image": "https://cdn.tgdd.vn/2020/07/CookProduct/ava-1200x676-7.jpg",
+    "image": "/images/milk-coffee.jpg",
     "price": "25K VND",
     "rating": 5,
     "votes": 2100,
@@ -156,7 +156,7 @@ export const MockDataCoffee: CoffeeItem[] = [
   {
     "id": 3,
     "nameKey": "coconutCoffee",
-    "image": "https://nvhphunu.vn/wp-content/uploads/2023/10/cach-pha-ca-phe-cot-dua.jpg",
+    "image": "/images/coconut.jpg",
     "price": "25K VND",
     "rating": 4.8,
     "votes": 1650,
@@ -166,7 +166,7 @@ export const MockDataCoffee: CoffeeItem[] = [
   {
     "id": 5,
     "nameKey": "coldBrew",
-    "image": "https://file.hstatic.net/200000391645/article/cafe-cold-brew-aeroco-coffee_1_b38f8b940c3644d983a3c6314a5c1211.jpg",
+    "image": "/images/cold-rew.jpg",
     "price": "20K VND",
     "rating": 4.9,
     "votes": 950,
@@ -176,7 +176,7 @@ export const MockDataCoffee: CoffeeItem[] = [
   {
     "id": 6,
     "nameKey": "blackCoffee",
-    "image": "https://cdnphoto.dantri.com.vn/aIOZcmri9CbJvm1HFSpuytscpWQ=/thumb_w/960/2021/03/04/vi-ca-phe-den-het-nhu-vi-cuoc-songdocx-1614866315610.png",
+    "image": "/images/black.webp",
     "price": "20K VND",
     "rating": 4.7,
     "votes": 1200,
@@ -186,7 +186,7 @@ export const MockDataCoffee: CoffeeItem[] = [
   {
     "id": 11,
     "nameKey": "cacao",
-    "image": "https://www.huongnghiepaau.com/wp-content/uploads/2017/09/cacao-da-ngot.jpg",
+    "image": "/images/cacao.webp",
     "price": "25K VND",
     "rating": 4.7,
     "votes": 580,
@@ -199,7 +199,7 @@ export const MockDataTea: CoffeeItem[] = [
   {
     "id": 7,
     "nameKey": "jasmineTeaBubble",
-    "image": "https://cdn.tgdd.vn/Files/2018/07/14/1101389/loi-ich-va-cach-pha-tra-hoa-nhai-tra-hoa-lai-chuan-vi-tot-cho-suc-khoe-202302211359255720.jpeg",
+    "image": "/images/jasmine.jpeg",
     "price": "15K VND",
     "rating": 4.6,
     "votes": 780,
@@ -209,7 +209,7 @@ export const MockDataTea: CoffeeItem[] = [
   {
     "id": 8,
     "nameKey": "lemonTea",
-    "image": "https://daotaophachelamour.com/wp-content/uploads/2023/03/dung-cu-can-thiet-de-mo-quan-tra-chanh-1.jpg",
+    "image": "/images/tra-chanh.jpg",
     "price": "15K VND",
     "rating": 4.7,
     "votes": 920,
@@ -219,7 +219,7 @@ export const MockDataTea: CoffeeItem[] = [
   {
     "id": 9,
     "nameKey": "artisoTea",
-    "image": "https://toiyeutra.vn/upload/files/atiso%20do.jpg",
+    "image": "/images/atiso.jpg",
     "price": "20K VND",
     "rating": 4.8,
     "votes": 650,
@@ -232,7 +232,7 @@ export const MockDataJuices: CoffeeItem[] = [
   {
     "id": 4,
     "nameKey": "orangeJuice",
-    "image": "https://hoaquauudam.com/wp-content/uploads/2021/09/chon-cam-vat-1024x576-1.jpg",
+    "image": "/images/orange.jpg",
     "price": "30K VND",
     "rating": 4.8,
     "votes": 720,
@@ -242,7 +242,7 @@ export const MockDataJuices: CoffeeItem[] = [
   {
     "id": 10,
     "nameKey": "hanoiSauJuice",
-    "image": "https://i-giadinh.vnecdn.net/2022/06/18/Thanh-pham-1-1-1891-1655539037.jpg",
+    "image": "/images/nuoc-sau.jpg",
     "price": "20K VND",
     "rating": 4.6,
     "votes": 480,
@@ -252,7 +252,7 @@ export const MockDataJuices: CoffeeItem[] = [
   {
     "id": 12,
     "nameKey": "freshLemonJuice",
-    "image": "https://media.vov.vn/sites/default/files/styles/large/public/2023-04/5_27.jpg",
+    "image": "/images/lemon.jpg",
     "price": "20K VND",
     "rating": 4.7,
     "votes": 580,

@@ -12,6 +12,14 @@ function Coffee() {
     setCoffeeData(MockDataAll);
   }, []);
 
+  const handleFacebook = () => {
+    window.open('https://www.facebook.com/HanaCoffeeTea.Danang')
+  }
+
+  const handleKakaoTalk = () => {
+    window.open('https://open.kakao.com/me/hanacoffee');
+  }
+
   const handleFilter = (filter: string) => {
     setActiveFilter(filter);
     switch (filter) {
@@ -35,6 +43,31 @@ function Coffee() {
   return (
     <div className="container mx-auto px-4">
       <h1 className="text-4xl font-bold text-center text-[#FEF7EE] mb-4">{t('title')}</h1>
+      <div>
+        <div className='text-[#FEF7EE]'>{t('address')}</div>
+        <div className='text-[#FEF7EE]'><u><b>{t('contactWithUs')}</b></u>
+          <div className='pt-2 text-green-500 font-bold cursor-pointer' onClick={handleFacebook}>
+            <span className="inline-flex align-middle">
+              Facebook: Hana - Coffee & Tea Đà Nẵng
+            </span>
+          </div>
+          <div className='text-yellow-500 font-bold cursor-pointer' onClick={handleKakaoTalk}>
+            <span className="inline-flex align-middle">
+              Kakaotalk: hanacoffe
+            </span>
+          </div>
+          <div className='text-red-500 font-bold'>
+            <span className="inline-flex align-middle">
+              Zalo: (+84)5599 24296
+            </span>
+          </div>
+          <div className='text-red-500 font-bold'>
+            <span className="inline-flex align-middle">
+              WhatsApp: (+84)5599 24296
+            </span>
+          </div>
+        </div>
+      </div>
       <div className="text-center z-20 px-4 pb-4">
         <div className="flex flex-wrap items-center justify-center gap-2">
           <Button
@@ -74,7 +107,7 @@ function Coffee() {
                 <span className="text-[#F6C768] mr-2">★</span>
                 <span className="text-[#FEF7EE]">{coffee.rating}</span>
                 <span className="text-[#6F757C] ml-2">
-                  ({coffee.votes} {t('votes')})
+                  {/*({coffee.votes} {t('votes')})*/}
                 </span>
               </div>
               {!coffee.available && (
