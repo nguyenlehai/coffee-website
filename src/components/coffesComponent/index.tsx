@@ -81,14 +81,14 @@ function Coffee() {
             onClick={() => handleFilter('coffee')}
           />
           <Button
-            variant={activeFilter === 'tea' ? "active" : "inactive"}
-            text={t('tea')}
-            onClick={() => handleFilter('tea')}
-          />
-          <Button
             variant={activeFilter === 'juices' ? "active" : "inactive"}
             text={t('juices')}
             onClick={() => handleFilter('juices')}
+          />
+          <Button
+            variant={activeFilter === 'tea' ? "active" : "inactive"}
+            text={t('tea')}
+            onClick={() => handleFilter('tea')}
           />
         </div>
       </div>
