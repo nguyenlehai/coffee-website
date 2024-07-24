@@ -6,7 +6,7 @@ export interface CoffeeItem {
   rating: number | null;
   votes: number;
   popular: boolean;
-  available: boolean;
+  soldOut: boolean;
 }
 
 export const MockDataAll: CoffeeItem[] = [
@@ -17,8 +17,8 @@ export const MockDataAll: CoffeeItem[] = [
     "price": "30K VND",
     "rating": 4.9,
     "votes": 1800,
-    "popular": false,
-    "available": true
+    "popular": true,
+    "soldOut": false
   },
   {
     "id": 2,
@@ -27,8 +27,8 @@ export const MockDataAll: CoffeeItem[] = [
     "price": "25K VND",
     "rating": 5,
     "votes": 2100,
-    "popular": false,
-    "available": true
+    "popular": true,
+    "soldOut": false
   },
   {
     "id": 3,
@@ -37,8 +37,8 @@ export const MockDataAll: CoffeeItem[] = [
     "price": "40K VND",
     "rating": 5,
     "votes": 2100,
-    "popular": false,
-    "available": true
+    "popular": true,
+    "soldOut": false
   },
   {
     "id": 4,
@@ -47,8 +47,8 @@ export const MockDataAll: CoffeeItem[] = [
     "price": "40K VND",
     "rating": 5,
     "votes": 2100,
-    "popular": false,
-    "available": true
+    "popular": true,
+    "soldOut": false
   },
   {
     "id": 5,
@@ -58,7 +58,7 @@ export const MockDataAll: CoffeeItem[] = [
     "rating": 4.8,
     "votes": 1650,
     "popular": false,
-    "available": true
+    "soldOut": false
   },
   {
     "id": 6,
@@ -67,8 +67,8 @@ export const MockDataAll: CoffeeItem[] = [
     "price": "30K VND",
     "rating": 4.8,
     "votes": 720,
-    "popular": true,
-    "available": true
+    "popular": false,
+    "soldOut": false
   },
   {
     "id": 7,
@@ -77,8 +77,8 @@ export const MockDataAll: CoffeeItem[] = [
     "price": "20K VND",
     "rating": 4.7,
     "votes": 1200,
-    "popular": true,
-    "available": true
+    "popular": false,
+    "soldOut": false
   },
   {
     "id": 8,
@@ -87,8 +87,8 @@ export const MockDataAll: CoffeeItem[] = [
     "price": "25K VND",
     "rating": 4.7,
     "votes": 1200,
-    "popular": true,
-    "available": true
+    "popular": false,
+    "soldOut": false
   },
   {
     "id": 9,
@@ -97,8 +97,8 @@ export const MockDataAll: CoffeeItem[] = [
     "price": "25K VND",
     "rating": 4.7,
     "votes": 580,
-    "popular": true,
-    "available": true
+    "popular": false,
+    "soldOut": false
   },
   {
     "id": 10,
@@ -107,8 +107,8 @@ export const MockDataAll: CoffeeItem[] = [
     "price": "15K VND",
     "rating": 4.6,
     "votes": 780,
-    "popular": true,
-    "available": true
+    "popular": false,
+    "soldOut": false
   },
   {
     "id": 11,
@@ -117,8 +117,8 @@ export const MockDataAll: CoffeeItem[] = [
     "price": "15K VND",
     "rating": 4.7,
     "votes": 920,
-    "popular": true,
-    "available": true
+    "popular": false,
+    "soldOut": false
   },
   {
     "id": 12,
@@ -127,8 +127,8 @@ export const MockDataAll: CoffeeItem[] = [
     "price": "20K VND",
     "rating": 4.8,
     "votes": 650,
-    "popular": true,
-    "available": true
+    "popular": false,
+    "soldOut": false
   },
   {
     "id": 13,
@@ -137,8 +137,8 @@ export const MockDataAll: CoffeeItem[] = [
     "price": "20K VND",
     "rating": 4.6,
     "votes": 480,
-    "popular": true,
-    "available": true
+    "popular": false,
+    "soldOut": false
   },
   {
     "id": 14,
@@ -147,8 +147,8 @@ export const MockDataAll: CoffeeItem[] = [
     "price": "20K VND",
     "rating": 4.6,
     "votes": 480,
-    "popular": true,
-    "available": true
+    "popular": false,
+    "soldOut": false
   },
   {
     "id": 15,
@@ -157,8 +157,8 @@ export const MockDataAll: CoffeeItem[] = [
     "price": "20K VND",
     "rating": 4.7,
     "votes": 580,
-    "popular": true,
-    "available": true
+    "popular": false,
+    "soldOut": false
   }
 ]
 
@@ -170,8 +170,8 @@ export const MockDataCoffee: CoffeeItem[] = [
     "price": "30K VND",
     "rating": 4.9,
     "votes": 1800,
-    "popular": false,
-    "available": true
+    "popular": true,
+    "soldOut": false
   },
   {
     "id": 7,
@@ -180,8 +180,8 @@ export const MockDataCoffee: CoffeeItem[] = [
     "price": "20K VND",
     "rating": 4.7,
     "votes": 1200,
-    "popular": true,
-    "available": true
+    "popular": false,
+    "soldOut": false
   },
   {
     "id": 2,
@@ -190,8 +190,8 @@ export const MockDataCoffee: CoffeeItem[] = [
     "price": "25K VND",
     "rating": 5,
     "votes": 2100,
-    "popular": false,
-    "available": true
+    "popular": true,
+    "soldOut": false
   },
   {
     "id": 5,
@@ -201,7 +201,7 @@ export const MockDataCoffee: CoffeeItem[] = [
     "rating": 4.8,
     "votes": 1650,
     "popular": false,
-    "available": true
+    "soldOut": false
   },
   {
     "id": 8,
@@ -210,8 +210,8 @@ export const MockDataCoffee: CoffeeItem[] = [
     "price": "25K VND",
     "rating": 4.7,
     "votes": 1200,
-    "popular": true,
-    "available": true
+    "popular": false,
+    "soldOut": false
   },
   {
     "id": 9,
@@ -220,8 +220,8 @@ export const MockDataCoffee: CoffeeItem[] = [
     "price": "25K VND",
     "rating": 4.7,
     "votes": 580,
-    "popular": true,
-    "available": true
+    "popular": false,
+    "soldOut": false
   },
 ]
 
@@ -233,8 +233,8 @@ export const MockDataTea: CoffeeItem[] = [
     "price": "20K VND",
     "rating": 4.8,
     "votes": 650,
-    "popular": true,
-    "available": true
+    "popular": false,
+    "soldOut": false
   },
   {
     "id": 10,
@@ -243,8 +243,8 @@ export const MockDataTea: CoffeeItem[] = [
     "price": "15K VND",
     "rating": 4.6,
     "votes": 780,
-    "popular": true,
-    "available": true
+    "popular": false,
+    "soldOut": false
   },
   {
     "id": 11,
@@ -253,8 +253,8 @@ export const MockDataTea: CoffeeItem[] = [
     "price": "15K VND",
     "rating": 4.7,
     "votes": 920,
-    "popular": true,
-    "available": true
+    "popular": false,
+    "soldOut": false
   },
 ]
 
@@ -266,8 +266,8 @@ export const MockDataJuices: CoffeeItem[] = [
     "price": "40K VND",
     "rating": 5,
     "votes": 2100,
-    "popular": false,
-    "available": true
+    "popular": true,
+    "soldOut": false
   },
   {
     "id": 4,
@@ -276,8 +276,8 @@ export const MockDataJuices: CoffeeItem[] = [
     "price": "40K VND",
     "rating": 5,
     "votes": 2100,
-    "popular": false,
-    "available": true
+    "popular": true,
+    "soldOut": false
   },
   {
     "id": 13,
@@ -286,8 +286,8 @@ export const MockDataJuices: CoffeeItem[] = [
     "price": "20K VND",
     "rating": 4.6,
     "votes": 480,
-    "popular": true,
-    "available": true
+    "popular": false,
+    "soldOut": false
   },
   {
     "id": 14,
@@ -296,8 +296,8 @@ export const MockDataJuices: CoffeeItem[] = [
     "price": "20K VND",
     "rating": 4.6,
     "votes": 480,
-    "popular": true,
-    "available": true
+    "popular": false,
+    "soldOut": false
   },
   {
     "id": 15,
@@ -306,8 +306,8 @@ export const MockDataJuices: CoffeeItem[] = [
     "price": "20K VND",
     "rating": 4.7,
     "votes": 580,
-    "popular": true,
-    "available": true
+    "popular": false,
+    "soldOut": false
   },
   {
     "id": 6,
@@ -316,7 +316,7 @@ export const MockDataJuices: CoffeeItem[] = [
     "price": "30K VND",
     "rating": 4.8,
     "votes": 720,
-    "popular": true,
-    "available": true
+    "popular": false,
+    "soldOut": false
   },
 ]
